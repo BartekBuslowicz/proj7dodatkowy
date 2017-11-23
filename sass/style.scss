@@ -1,5 +1,5 @@
 * {
-	// border: 1px solid red;	
+	border: 1px solid red;	
 
 	// border: 1px solid green;
 }
@@ -123,10 +123,10 @@ body {
 			}
 		}
 		.whatwedo {
-			height: 1400px;
 			.quadro {
 				border: 2px solid black;
 				margin: 160px 0;
+				padding-bottom: 90px;
 				h1 {
 					font-size: 55.94px;
 					font-family: "Lato";
@@ -138,8 +138,27 @@ body {
 					margin: 0 auto;
 					position: relative;
 					top: -40px;
-					background-color: white;
-					
+					background-color: white;	
+				}
+				a > img {
+					display: block;
+					margin: 0 auto;
+					transition: 1s;
+					width: 100px;
+					margin-top: 100px;
+				}
+				a > img:hover  {
+					transform: rotate(360deg);
+				}
+				h3 {
+					text-align: center;
+					margin-top: 40px;
+				}
+				p {
+					display: block;
+					margin: 0 auto;
+					margin-top: 40px;
+					text-align: center;
 				}
 			}
 		}
