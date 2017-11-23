@@ -1,11 +1,91 @@
 * {
-	border: 1px solid red;		
+	// border: 1px solid red;	
+
+	// border: 1px solid green;
 }
 .container {
-	max-height: 900px;
-	height: 100%;
-}
- .main {
-	max-width: 1920px;
+	max-width: 900px;
 	width: 100%;
+	padding: 0;
+}
+.textcontainer {
+	max-width: 560px;
+	width: 100%;
+}
+.smalltextcontainer {
+	max-width: 430px;
+	width: 100%;
+}
+.smalltext {
+  font-size: 15px;
+  font-family: "Lato";
+  color: rgb( 255, 255, 255 );
+  line-height: 1.933;
+  letter-spacing: 0.06ex;
+}
+.bigtext {
+	font-size: 50px;
+  	font-family: "Lato";
+  	color: rgb( 255, 255, 255 );
+  	font-weight: bold;
+  	letter-spacing: 0.32ex;
+}
+body {
+	.main {
+		max-width: 1920px;
+		width: 100%;
+		.header {
+			background-image: url("http://i68.tinypic.com/2vijwbl.png");
+			overflow-x: hidden;
+			background-size: cover;
+			background-position: center;
+			height: 1070px;
+			.eclipse {
+				display: block;
+				margin: 0 auto;
+				margin-top: 280px;
+			}
+			p {
+				display: block;
+				margin: 0 auto;
+				margin-top: 50px;
+				text-align: center;
+				text-transform: uppercase;
+			}
+			a > img {
+				display: block;
+				margin: 0 auto;
+				margin-top: 240px;
+				transition: 2s;
+			}
+			a > img:hover  {
+				transform: rotate(360deg);
+			}
+		}
+		.aboutus {
+			.quadro {
+				border: 1px solid black;
+				margin: 160px 0;
+				padding-bottom: 60px;
+				h1 {
+					font-size: 55.94px;
+					font-family: "Lato";
+					color: rgb( 60, 60, 60 );
+					font-weight: bold;
+					text-transform: uppercase;
+					text-align: center;
+					width: 420px;
+					margin: 0 auto;
+					position: relative;
+					top: -40px;
+					background-color: white;
+					}
+				}p {
+					display: block;
+					margin: 0 auto;
+					margin-top: 50px;
+					text-align: center;
+				}
+		}
+	}
 }
