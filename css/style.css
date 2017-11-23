@@ -48,11 +48,11 @@ body .main {
       display: block;
       margin: 0 auto;
       margin-top: 240px;
-      transition: 2s; }
+      transition: 1s; }
     body .main .header a > img:hover {
       transform: rotate(360deg); }
   body .main .aboutus .quadro {
-    border: 1px solid black;
+    border: 2px solid black;
     margin: 160px 0;
     padding-bottom: 60px; }
     body .main .aboutus .quadro h1 {
@@ -67,10 +67,56 @@ body .main {
       position: relative;
       top: -40px;
       background-color: white; }
-  body .main .aboutus p {
-    display: block;
-    margin: 0 auto;
-    margin-top: 50px;
-    text-align: center; }
+    body .main .aboutus .quadro p {
+      display: block;
+      margin: 0 auto;
+      margin-top: 50px;
+      text-align: center; }
+  body .main .service {
+    background-image: url("http://i63.tinypic.com/2u93lht.png");
+    overflow-x: hidden;
+    background-size: cover;
+    background-position: center; }
+    body .main .service .quadro {
+      border: 2px solid white;
+      margin: 120px 0 110px 0;
+      padding-bottom: 60px; }
+      body .main .service .quadro h1 {
+        font-size: 55.94px;
+        font-family: "Lato";
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        width: 420px;
+        margin: 0 auto;
+        position: relative;
+        top: -40px;
+        background-image: url("http://i63.tinypic.com/2u93lht.png");
+        background-size: 1920px 490px;
+        background-position-x: 50%;
+        background-position-y: 20%; }
+      body .main .service .quadro p {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        color: white; }
+  body .main .whatwedo {
+    height: 1400px; }
+    body .main .whatwedo .quadro {
+      border: 2px solid black;
+      margin: 160px 0; }
+      body .main .whatwedo .quadro h1 {
+        font-size: 55.94px;
+        font-family: "Lato";
+        color: black;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        width: 420px;
+        margin: 0 auto;
+        position: relative;
+        top: -40px;
+        background-color: white; }
 
 /*# sourceMappingURL=style.css.map */
