@@ -1,6 +1,3 @@
-* {
-  border: 1px solid red; }
-
 .container {
   max-width: 900px;
   width: 100%;
@@ -136,5 +133,35 @@ body .main {
       margin: 0 auto;
       margin-top: 40px;
       text-align: center; }
+  body .main .ourworks .pic1 {
+    width: 548px;
+    height: 237px;
+    display: inline-block;
+    background-image: url("http://i64.tinypic.com/2ef0vwm.png"); }
+  body .main .ourworks .pic2 {
+    width: 802px;
+    height: 237px;
+    display: inline-block;
+    background-image: url("http://i63.tinypic.com/4joysl.png"); }
+  body .main .ourworks .pic3 {
+    width: 550px;
+    height: 237px;
+    display: inline-block;
+    background-image: url("http://i67.tinypic.com/dn28w4.png"); }
+  body .main .ourworks .pic4 {
+    width: 548px;
+    height: 237px;
+    display: inline-block;
+    background-image: url("http://i66.tinypic.com/10cuigx.png"); }
+  body .main .ourworks .pic5 {
+    width: 802px;
+    height: 237px;
+    display: inline-block;
+    background-image: url("http://i68.tinypic.com/x8vvc.png"); }
+  body .main .ourworks .pic6 {
+    width: 550px;
+    height: 237px;
+    display: inline-block;
+    background-image: url("http://i68.tinypic.com/14t1z01.png"); }
 
 /*# sourceMappingURL=style.css.map */
