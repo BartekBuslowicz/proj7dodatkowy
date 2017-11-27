@@ -1,6 +1,3 @@
-* {
-  border: 1px solid red; }
-
 .container {
   max-width: 900px;
   width: 100%;
@@ -55,21 +52,37 @@ body .main {
     body .main .header a > img:hover {
       transform: rotate(360deg); }
   body .main .aboutus .quadro {
-    border: 2px solid black;
+    border-style: solid;
+    border-width: 0 3px 3px 3px;
     margin: 160px 0;
-    padding-bottom: 60px; }
+    padding-bottom: 60px;
+    text-align: center;
+    position: relative; }
     body .main .aboutus .quadro h1 {
+      text-transform: uppercase;
+      display: inline-block;
       font-size: 55.94px;
       font-family: "Lato";
-      color: #3c3c3c;
-      font-weight: bold;
-      text-transform: uppercase;
-      text-align: center;
-      width: 420px;
-      margin: 0 auto;
       position: relative;
-      top: -40px;
-      background-color: white; }
+      top: -30px; }
+    body .main .aboutus .quadro h1:before {
+      content: "";
+      position: absolute;
+      height: 0px;
+      border-bottom: 3px solid black;
+      top: 30px;
+      width: 215px;
+      right: 130%;
+      margin-right: 15px; }
+    body .main .aboutus .quadro h1:after {
+      content: "";
+      position: absolute;
+      height: 0px;
+      border-bottom: 3px solid black;
+      top: 30px;
+      width: 215px;
+      left: 130%;
+      margin-left: 15px; }
     body .main .aboutus .quadro p {
       display: block;
       margin: 0 auto;
@@ -81,45 +94,76 @@ body .main {
     background-size: cover;
     background-position: center; }
     body .main .service .quadro {
-      border: 2px solid white;
+      border-style: solid;
+      border-color: white;
+      border-width: 0 3px 3px 3px;
       margin: 120px 0 110px 0;
-      padding-bottom: 60px; }
+      padding-bottom: 60px;
+      text-align: center;
+      position: relative; }
       body .main .service .quadro h1 {
+        text-transform: uppercase;
+        display: inline-block;
         font-size: 55.94px;
         font-family: "Lato";
-        color: white;
-        font-weight: bold;
-        text-transform: uppercase;
-        text-align: center;
-        width: 420px;
-        margin: 0 auto;
         position: relative;
-        top: -40px;
-        background-image: url("http://i63.tinypic.com/2u93lht.png");
-        background-size: 1920px 490px;
-        background-position-x: 50%;
-        background-position-y: 20%; }
+        top: -30px;
+        color: white; }
+      body .main .service .quadro h1:before {
+        content: "";
+        position: absolute;
+        height: 0px;
+        border-bottom: 3px solid white;
+        top: 30px;
+        width: 230px;
+        right: 130%;
+        margin-right: 15px; }
+      body .main .service .quadro h1:after {
+        content: "";
+        position: absolute;
+        height: 0px;
+        border-bottom: 3px solid white;
+        top: 30px;
+        width: 230px;
+        left: 130%;
+        margin-left: 15px; }
       body .main .service .quadro p {
         display: block;
         margin: 0 auto;
         text-align: center;
         color: white; }
   body .main .whatwedo .quadro {
-    border: 2px solid black;
+    border-style: solid;
+    border-width: 0 3px 3px 3px;
     margin: 160px 0;
-    padding-bottom: 90px; }
+    padding-bottom: 90px;
+    text-align: center;
+    position: relative; }
     body .main .whatwedo .quadro h1 {
+      text-transform: uppercase;
+      display: inline-block;
       font-size: 55.94px;
       font-family: "Lato";
-      color: black;
-      font-weight: bold;
-      text-transform: uppercase;
-      text-align: center;
-      width: 420px;
-      margin: 0 auto;
       position: relative;
-      top: -40px;
-      background-color: white; }
+      top: -30px; }
+    body .main .whatwedo .quadro h1:before {
+      content: "";
+      position: absolute;
+      height: 0px;
+      border-bottom: 3px solid black;
+      top: 30px;
+      width: 160px;
+      right: 125%;
+      margin-right: 15px; }
+    body .main .whatwedo .quadro h1:after {
+      content: "";
+      position: absolute;
+      height: 0px;
+      border-bottom: 3px solid black;
+      top: 30px;
+      width: 160px;
+      left: 125%;
+      margin-left: 15px; }
     body .main .whatwedo .quadro a > img {
       display: block;
       margin: 0 auto;
@@ -167,31 +211,48 @@ body .main {
     display: inline-block;
     background-image: url("http://i68.tinypic.com/14t1z01.png"); }
   body .main .contactus .quadro {
-    border: 2px solid black;
+    border-style: solid;
+    border-width: 0 3px 3px 3px;
     margin: 160px 0;
-    padding-bottom: 60px; }
+    padding-bottom: 60px;
+    text-align: center;
+    position: relative; }
     body .main .contactus .quadro h1 {
+      text-transform: uppercase;
+      display: inline-block;
       font-size: 55.94px;
       font-family: "Lato";
-      color: #3c3c3c;
-      font-weight: bold;
-      text-transform: uppercase;
-      text-align: center;
-      width: 420px;
-      margin: 0 auto;
       position: relative;
-      top: -40px;
-      background-color: white; }
+      top: -30px; }
+    body .main .contactus .quadro h1:before {
+      content: "";
+      position: absolute;
+      height: 0px;
+      border-bottom: 3px solid black;
+      top: 30px;
+      width: 160px;
+      right: 130%;
+      margin-right: 15px; }
+    body .main .contactus .quadro h1:after {
+      content: "";
+      position: absolute;
+      height: 0px;
+      border-bottom: 3px solid black;
+      top: 30px;
+      width: 160px;
+      left: 130%;
+      margin-left: 15px; }
     body .main .contactus .quadro p {
       display: block;
       margin: 0 auto;
-      margin-top: 50px;
       text-align: center; }
-  body .main .contactus .btn-info {
-    background-color: #3c3c3c;
-    border: none;
-    text-align: center;
-    border-radius: 0;
-    border: 1px solid green; }
+    body .main .contactus .quadro .btn-info {
+      background-color: #3c3c3c;
+      border: none;
+      text-align: center;
+      border-radius: 0;
+      margin-top: 50px;
+      width: 400px;
+      height: 50px; }
 
 /*# sourceMappingURL=style.css.map */

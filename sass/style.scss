@@ -1,5 +1,5 @@
 * {
-	border: 1px solid red;	
+	// border: 1px solid red;	
 
 	// border: 1px solid green;
 }
@@ -64,21 +64,39 @@ body {
 		}
 		.aboutus {
 			.quadro {
-				border: 2px solid black;
+			    border-style: solid;
+    			border-width: 0 3px 3px 3px;
 				margin: 160px 0;
 				padding-bottom: 60px;
+				text-align: center;
+				position: relative;
 				h1 {
+					text-transform: uppercase;
+					display: inline-block;
 					font-size: 55.94px;
 					font-family: "Lato";
-					color: rgb( 60, 60, 60 );
-					font-weight: bold;
-					text-transform: uppercase;
-					text-align: center;
-					width: 420px;
-					margin: 0 auto;
 					position: relative;
-					top: -40px;
-					background-color: white;
+					top: -30px;
+				}
+				h1:before {
+					  content: "";
+					  position: absolute;
+					  height: 0px;
+					  border-bottom: 3px solid black;
+					  top: 30px;
+					  width: 215px;
+					  right: 130%;
+ 					  margin-right: 15px;
+				}
+				h1:after {
+					  content: "";
+					  position: absolute;
+					  height: 0px;
+					  border-bottom: 3px solid black;
+					  top: 30px;
+					  width: 215px;
+					  left: 130%;
+ 					  margin-left: 15px;
 				}
 				p {
 					display: block;
@@ -94,25 +112,41 @@ body {
 			background-size: cover;
 			background-position: center;
 			.quadro {
-				border: 2px solid white;
+				border-style: solid;
+				border-color: white;
+    			border-width: 0 3px 3px 3px;
 				margin: 120px 0 110px 0;
 				padding-bottom: 60px;
+				text-align: center;
+				position: relative;
 				h1 {
+					text-transform: uppercase;
+					display: inline-block;
 					font-size: 55.94px;
 					font-family: "Lato";
-					color: white;
-					font-weight: bold;
-					text-transform: uppercase;
-					text-align: center;
-					width: 420px;
-					margin: 0 auto;
 					position: relative;
-					top: -40px;
-					background-image: url("http://i63.tinypic.com/2u93lht.png");
-					background-size: 1920px 490px;
-					background-position-x: 50%;
-					background-position-y: 20%;
-					
+					top: -30px;
+					color: white;
+				}
+				h1:before {
+					content: "";
+					position: absolute;
+					height: 0px;
+					border-bottom: 3px solid white;
+					top: 30px;
+					width: 230px;
+					right: 130%;
+ 					margin-right: 15px;
+				}
+				h1:after {
+					content: "";
+					position: absolute;
+					height: 0px;
+					border-bottom: 3px solid white;
+					top: 30px;
+					width: 230px;
+					left: 130%;
+ 					margin-left: 15px;	
 				}
 				p {
 					display: block;
@@ -124,21 +158,39 @@ body {
 		}
 		.whatwedo {
 			.quadro {
-				border: 2px solid black;
+				border-style: solid;
+    			border-width: 0 3px 3px 3px;
 				margin: 160px 0;
 				padding-bottom: 90px;
+				text-align: center;
+				position: relative;
 				h1 {
+					text-transform: uppercase;
+					display: inline-block;
 					font-size: 55.94px;
 					font-family: "Lato";
-					color: black;
-					font-weight: bold;
-					text-transform: uppercase;
-					text-align: center;
-					width: 420px;
-					margin: 0 auto;
 					position: relative;
-					top: -40px;
-					background-color: white;	
+					top: -30px;
+				}
+				h1:before {
+					  content: "";
+					  position: absolute;
+					  height: 0px;
+					  border-bottom: 3px solid black;
+					  top: 30px;
+					  width: 160px;
+					  right: 125%;
+ 					  margin-right: 15px;
+				}
+				h1:after {
+					  content: "";
+					  position: absolute;
+					  height: 0px;
+					  border-bottom: 3px solid black;
+					  top: 30px;
+					  width: 160px;
+					  left: 125%;
+ 					  margin-left: 15px;
 				}
 				a > img {
 					display: block;
@@ -202,37 +254,54 @@ body {
 		}
 		.contactus {
 			.quadro {
-				border: 2px solid black;
+				border-style: solid;
+    			border-width: 0 3px 3px 3px;
 				margin: 160px 0;
 				padding-bottom: 60px;
+				text-align: center;
+				position: relative;
 				h1 {
+					text-transform: uppercase;
+					display: inline-block;
 					font-size: 55.94px;
 					font-family: "Lato";
-					color: rgb( 60, 60, 60 );
-					font-weight: bold;
-					text-transform: uppercase;
-					text-align: center;
-					width: 420px;
-					margin: 0 auto;
 					position: relative;
-					top: -40px;
-					background-color: white;
+					top: -30px;
+				}
+				h1:before {
+					  content: "";
+					  position: absolute;
+					  height: 0px;
+					  border-bottom: 3px solid black;
+					  top: 30px;
+					  width: 160px;
+					  right: 130%;
+ 					  margin-right: 15px;
+				}
+				h1:after {
+					  content: "";
+					  position: absolute;
+					  height: 0px;
+					  border-bottom: 3px solid black;
+					  top: 30px;
+					  width: 160px;
+					  left: 130%;
+ 					  margin-left: 15px;
 				}
 				p {
 					display: block;
 					margin: 0 auto;
-					margin-top: 50px;
 					text-align: center;
 				}
-			}
-		}
-		.contactus {
-			.btn-info {
+				.btn-info {
 				background-color: rgb( 60, 60, 60 );
 				border: none;
 				text-align: center;
 				border-radius: 0;
-				border: 1px solid green;
+				margin-top: 50px;
+				width: 400px;
+				height: 50px;
+				}
 			}
 		}
 	}
