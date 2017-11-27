@@ -145,15 +145,17 @@ body .main {
       font-size: 55.94px;
       font-family: "Lato";
       position: relative;
-      top: -30px; }
+      top: -30px;
+      color: black;
+      margin-bottom: 0; }
     body .main .whatwedo .quadro h1:before {
       content: "";
       position: absolute;
       height: 0px;
       border-bottom: 3px solid black;
       top: 30px;
-      width: 160px;
-      right: 125%;
+      width: 141px;
+      right: 130%;
       margin-right: 15px; }
     body .main .whatwedo .quadro h1:after {
       content: "";
@@ -161,15 +163,14 @@ body .main {
       height: 0px;
       border-bottom: 3px solid black;
       top: 30px;
-      width: 160px;
-      left: 125%;
+      width: 141px;
+      left: 130%;
       margin-left: 15px; }
     body .main .whatwedo .quadro a > img {
-      display: block;
+      display: inline-block;
       margin: 0 auto;
       transition: 1s;
-      width: 100px;
-      margin-top: 100px; }
+      width: 100px; }
     body .main .whatwedo .quadro a > img:hover {
       transform: rotate(360deg); }
     body .main .whatwedo .quadro h3 {
