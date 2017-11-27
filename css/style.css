@@ -213,7 +213,7 @@ body .main {
   body .main .contactus .quadro {
     border-style: solid;
     border-width: 0 3px 3px 3px;
-    margin: 160px 0;
+    margin: 160px 0 40px 0;
     padding-bottom: 60px;
     text-align: center;
     position: relative; }
@@ -246,7 +246,7 @@ body .main {
       display: block;
       margin: 0 auto;
       text-align: center; }
-    body .main .contactus .quadro .btn-info {
+    body .main .contactus .quadro .buttonContact {
       background-color: #3c3c3c;
       border: none;
       text-align: center;
@@ -254,5 +254,10 @@ body .main {
       margin-top: 50px;
       width: 400px;
       height: 50px; }
+  body .main .footer {
+    text-align: center;
+    margin-bottom: 40px; }
+    body .main .footer img {
+      margin-right: 30px; }
 
 /*# sourceMappingURL=style.css.map */
