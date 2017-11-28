@@ -277,7 +277,7 @@ body .main {
   body .bigtext {
     font-size: 15px; }
   body .main .header {
-    height: 400px; }
+    height: 100vh; }
     body .main .header .eclipse {
       margin-top: 5px; }
     body .main .header p {
