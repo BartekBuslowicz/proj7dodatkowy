@@ -29,6 +29,7 @@
   letter-spacing: 0.32ex; }
 
 body .main {
+  overflow: hidden;
   max-width: 1920px;
   width: 100%; }
   body .main .header {
