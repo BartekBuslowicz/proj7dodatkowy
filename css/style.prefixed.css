@@ -331,8 +331,10 @@ body .main {
       top: 10px; }
     body .main .whatwedo .quadro h1:after {
       top: 10px; }
-  body .main .ourworks [class*="pic"] {
-    width: 100vw; }
+  body .main .ourworks {
+    text-align: center; }
+    body .main .ourworks [class*="pic"] {
+      width: 90vw; }
   body .main .contactus .quadro {
     margin: 40px 0;
     padding-bottom: 20px; }

@@ -1,7 +1,5 @@
 * {
-	// border: 1px solid red;	
 	margin: 0 auto;
-	// border: 1px solid green;
 }
 .container {
 	max-width: 900px;
@@ -95,8 +93,8 @@ body {
 					  height: 0px;
 					  border-bottom: 3px solid black;
 					  top: 30px;
-					  width: 215px;
-					  left: 130%;
+ 					 width: 215px;
+					 left: 130%;
  					  margin-left: 15px;
 				}
 				p {
@@ -411,8 +409,9 @@ body {
 			}
 		}
 		.ourworks {
+			text-align: center;
 			[class*="pic"] {
-				width: 100vw;
+				width: 90vw;
 			}
 		}
 		.contactus {
