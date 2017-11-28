@@ -1,6 +1,6 @@
 * {
-	border: 1px solid red;	
-
+	// border: 1px solid red;	
+	margin: 0 auto;
 	// border: 1px solid green;
 }
 .container {
@@ -37,6 +37,7 @@ body {
 		.header {
 			background-image: url("http://i68.tinypic.com/2vijwbl.png");
 			overflow-x: hidden;
+			overflow-y: hidden;
 			background-size: cover;
 			background-position: center;
 			height: 1070px;
@@ -224,36 +225,48 @@ body {
 				height: 237px;
 				display: inline-block;
 				background-image: url("http://i64.tinypic.com/2ef0vwm.png");
+				background-size: cover;
+				background-position: center;
 			}
 			.pic2 {
 				width: 802px;
 				height: 237px;
 				display: inline-block;
 				background-image: url("http://i63.tinypic.com/4joysl.png");
+				background-size: cover;
+				background-position: center;
 			}
 			.pic3 {
 				width: 550px;
 				height: 237px;
 				display: inline-block;
 				background-image: url("http://i67.tinypic.com/dn28w4.png");
+				background-size: cover;
+				background-position: center;
 			}
 			.pic4 {
 				width: 548px;
 				height: 237px;
 				display: inline-block;
 				background-image: url("http://i66.tinypic.com/10cuigx.png");
+				background-size: cover;
+				background-position: center;
 			}
 			.pic5 {
 				width: 802px;
 				height: 237px;
 				display: inline-block;
 				background-image: url("http://i68.tinypic.com/x8vvc.png");
+				background-size: cover;
+				background-position: center;
 			}
 			.pic6 {
 				width: 550px;
 				height: 237px;
 				display: inline-block;
 				background-image: url("http://i68.tinypic.com/14t1z01.png");
+				background-size: cover;
+				background-position: center;
 			}
 		}
 		.contactus {
@@ -335,7 +348,7 @@ body {
 	}
 	.main {
 		.header {
-			height: 100vh;
+			height: 320px;
 			.eclipse {
 				margin-top: 5px;
 			}
@@ -346,6 +359,94 @@ body {
 				margin-top: 5px;
 			}
 		}
+		.aboutus {
+			.quadro {
+				margin: 40px 0;
+				padding-bottom: 20px;
+				h1 {
+					font-size: 30px;
+					top: -20px;
+				}
+				h1:before {
+					  top: 20px;
+				}
+				h1:after {
+					  top: 20px;
+				}
+				p {
+					margin-top: 0;
+				}	
+			}
+		}
+		.service {
+			.quadro {
+				margin: 40px 0;
+				padding-bottom: 20px;
+				h1 {
+					font-size: 30px;
+					top: -20px;
+				}
+				h1:before {
+					top: 20px;
+				}
+				h1:after {
+					top: 20px;	
+				}
+			}
+		}
+		.whatwedo {
+			.quadro {
+				margin: 40px 0;
+				padding-bottom: 20px;
+				h1 {
+					font-size: 20px;
+					top: -10px;
+				}
+				h1:before {
+					top: 10px;
+				}
+				h1:after {
+					top: 10px;	
+				}
+			}
+		}
+		.ourworks {
+			[class*="pic"] {
+				width: 100vw;
+			}
+		}
+		.contactus {
+			.quadro {
+				margin: 40px 0;
+				padding-bottom: 20px;
+				h1 {
+					font-size: 20px;
+					top: -20px;
+				}
+				h1:before {
+					top: 20px;
+				}
+				h1:after {
+					top: 20px;	
+				}
+				p {
+					display: block;
+					margin: 0 auto;
+					text-align: center;
+				}
+				.buttonContact {
+				width: 50vw;
+				height: 40px;
+				}
+			}
+		}
+		.footer {
+			text-align: center;
+			margin-bottom: 40px;
+			img {
+				margin-right: 30px;
+			}
+		}
 	}
 }
 }
@@ -354,6 +455,21 @@ body {
 	.main {
 		.header {
 			height: 400px;
+			.eclipse {
+				margin-top: 30px;
+			}
+			p {
+				margin-top: 5px;
+			}
+			a > img {
+				margin-top: 5px;
+			}
+		}
+		.ourworks {
+			text-align: center;
+			[class*="pic"] {
+				width: 90vw;
+			}
 		}
 	}
 }
@@ -362,11 +478,38 @@ body {
 body {
 	.main {
 		.header {
-			height: 600px;
+			height: 800px;
+			.eclipse {
+				margin-top: 200px;
+			}
+			p {
+				margin-top: 50px;
+			}
+			a > img {
+				margin-top: 50px;
+			}
+		}
+		.ourworks {
+			text-align: center;
+			[class*="pic"] {
+				width: 80vw;
+			}
 		}
 	}
 }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1919px) {
+body {
+	.main {
+		.ourworks {
+			text-align: center;
+			[class*="pic"] {
+				width: 70vw;
+			}
+		}
+	}
+}
+}
+@media (min-width: 1920px) {
 
 }

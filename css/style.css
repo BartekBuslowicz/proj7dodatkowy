@@ -1,5 +1,5 @@
 * {
-  border: 1px solid red; }
+  margin: 0 auto; }
 
 .container {
   max-width: 900px;
@@ -34,6 +34,7 @@ body .main {
   body .main .header {
     background-image: url("http://i68.tinypic.com/2vijwbl.png");
     overflow-x: hidden;
+    overflow-y: hidden;
     background-size: cover;
     background-position: center;
     height: 1070px; }
@@ -189,32 +190,44 @@ body .main {
     width: 548px;
     height: 237px;
     display: inline-block;
-    background-image: url("http://i64.tinypic.com/2ef0vwm.png"); }
+    background-image: url("http://i64.tinypic.com/2ef0vwm.png");
+    background-size: cover;
+    background-position: center; }
   body .main .ourworks .pic2 {
     width: 802px;
     height: 237px;
     display: inline-block;
-    background-image: url("http://i63.tinypic.com/4joysl.png"); }
+    background-image: url("http://i63.tinypic.com/4joysl.png");
+    background-size: cover;
+    background-position: center; }
   body .main .ourworks .pic3 {
     width: 550px;
     height: 237px;
     display: inline-block;
-    background-image: url("http://i67.tinypic.com/dn28w4.png"); }
+    background-image: url("http://i67.tinypic.com/dn28w4.png");
+    background-size: cover;
+    background-position: center; }
   body .main .ourworks .pic4 {
     width: 548px;
     height: 237px;
     display: inline-block;
-    background-image: url("http://i66.tinypic.com/10cuigx.png"); }
+    background-image: url("http://i66.tinypic.com/10cuigx.png");
+    background-size: cover;
+    background-position: center; }
   body .main .ourworks .pic5 {
     width: 802px;
     height: 237px;
     display: inline-block;
-    background-image: url("http://i68.tinypic.com/x8vvc.png"); }
+    background-image: url("http://i68.tinypic.com/x8vvc.png");
+    background-size: cover;
+    background-position: center; }
   body .main .ourworks .pic6 {
     width: 550px;
     height: 237px;
     display: inline-block;
-    background-image: url("http://i68.tinypic.com/14t1z01.png"); }
+    background-image: url("http://i68.tinypic.com/14t1z01.png");
+    background-size: cover;
+    background-position: center; }
   body .main .contactus .quadro {
     border-style: solid;
     border-width: 0 3px 3px 3px;
@@ -277,18 +290,99 @@ body .main {
   body .bigtext {
     font-size: 15px; }
   body .main .header {
-    height: 100vh; }
+    height: 320px; }
     body .main .header .eclipse {
       margin-top: 5px; }
     body .main .header p {
       margin-top: 5px; }
     body .main .header a > img {
-      margin-top: 5px; } }
+      margin-top: 5px; }
+  body .main .aboutus .quadro {
+    margin: 40px 0;
+    padding-bottom: 20px; }
+    body .main .aboutus .quadro h1 {
+      font-size: 30px;
+      top: -20px; }
+    body .main .aboutus .quadro h1:before {
+      top: 20px; }
+    body .main .aboutus .quadro h1:after {
+      top: 20px; }
+    body .main .aboutus .quadro p {
+      margin-top: 0; }
+  body .main .service .quadro {
+    margin: 40px 0;
+    padding-bottom: 20px; }
+    body .main .service .quadro h1 {
+      font-size: 30px;
+      top: -20px; }
+    body .main .service .quadro h1:before {
+      top: 20px; }
+    body .main .service .quadro h1:after {
+      top: 20px; }
+  body .main .whatwedo .quadro {
+    margin: 40px 0;
+    padding-bottom: 20px; }
+    body .main .whatwedo .quadro h1 {
+      font-size: 20px;
+      top: -10px; }
+    body .main .whatwedo .quadro h1:before {
+      top: 10px; }
+    body .main .whatwedo .quadro h1:after {
+      top: 10px; }
+  body .main .ourworks [class*="pic"] {
+    width: 100vw; }
+  body .main .contactus .quadro {
+    margin: 40px 0;
+    padding-bottom: 20px; }
+    body .main .contactus .quadro h1 {
+      font-size: 20px;
+      top: -20px; }
+    body .main .contactus .quadro h1:before {
+      top: 20px; }
+    body .main .contactus .quadro h1:after {
+      top: 20px; }
+    body .main .contactus .quadro p {
+      display: block;
+      margin: 0 auto;
+      text-align: center; }
+    body .main .contactus .quadro .buttonContact {
+      width: 50vw;
+      height: 40px; }
+  body .main .footer {
+    text-align: center;
+    margin-bottom: 40px; }
+    body .main .footer img {
+      margin-right: 30px; } }
 @media (min-width: 768px) and (max-width: 991px) {
   body .main .header {
-    height: 400px; } }
+    height: 400px; }
+    body .main .header .eclipse {
+      margin-top: 30px; }
+    body .main .header p {
+      margin-top: 5px; }
+    body .main .header a > img {
+      margin-top: 5px; }
+  body .main .ourworks {
+    text-align: center; }
+    body .main .ourworks [class*="pic"] {
+      width: 90vw; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   body .main .header {
-    height: 600px; } }
+    height: 800px; }
+    body .main .header .eclipse {
+      margin-top: 200px; }
+    body .main .header p {
+      margin-top: 50px; }
+    body .main .header a > img {
+      margin-top: 50px; }
+  body .main .ourworks {
+    text-align: center; }
+    body .main .ourworks [class*="pic"] {
+      width: 80vw; } }
+@media (min-width: 1200px) and (max-width: 1919px) {
+  body .main .ourworks {
+    text-align: center; }
+    body .main .ourworks [class*="pic"] {
+      width: 70vw; } }
 
 /*# sourceMappingURL=style.css.map */
